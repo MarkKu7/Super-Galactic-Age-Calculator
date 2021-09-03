@@ -14,6 +14,8 @@ export default class NewAge {
   }
 
   mercuryDays() {
-    
+    let days = this.currentAge * 365;
+    let mercuryAge = days / 88
+      return mercuryAge;
   }
 }
