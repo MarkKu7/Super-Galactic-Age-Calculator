@@ -33,4 +33,6 @@ export default class NewAge {
     let jupiterAge = Math.round(days/4329)
     return jupiterAge;
   }
+  lifeExpected() {
+  }
 }
