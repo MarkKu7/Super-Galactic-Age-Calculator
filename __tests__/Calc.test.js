@@ -1,19 +1,9 @@
-import Rectangle from '../src/js/rectangle.js';
+import ageCalculator from '../src/js/calc.js';
 
-describe('Rectangle', () => {
+describe ('newAge', () => {
+  let newAge;
 
-  let rectangle;
-
-  beforeEach(() => {
-    rectangle = new Rectangle(3,5);
-  });
-
-  test('should correctly create a rectangle object using two sides', () => {
-    expect(rectangle.side1).toEqual(3);
-    expect(rectangle.side2).toEqual(5);
-  });
-
-  test('should correctly get the area of a rectangle object', () => {
-    expect(rectangle.getArea()).toEqual(15);
+beforeEach(() => {
+  newAge = new ageCalculator(); 
   });
 });
