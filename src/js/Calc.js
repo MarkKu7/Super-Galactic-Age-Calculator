@@ -12,4 +12,8 @@ export default class NewAge {
     let days = this.currentAge * 365;
     return days
   }
+
+  mercuryDays() {
+    
+  }
 }
