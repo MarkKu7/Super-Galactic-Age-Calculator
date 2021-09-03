@@ -34,7 +34,8 @@ test('should divide number of Earth days old by 686 to determine age on mars', (
 test('should divide Earth Age (years) by 4329 to determine age on jupiter', () => {
     expect(newAge.jupiterDays()).toEqual(1);
   });
-  test('should determine if user has reached his/her life expectancy', () => {
-    expect(newAge.lifeExpected()).toEqual(0);
+  
+test('should determine if user has reached his/her life expectancy', () => {
+    expect(newAge.lifeExpected()).toEqual("you have not reached your expected age of death!");
   });
 });

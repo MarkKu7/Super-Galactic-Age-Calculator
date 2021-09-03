@@ -33,6 +33,14 @@ export default class NewAge {
     let jupiterAge = Math.round(days/4329)
     return jupiterAge;
   }
+  //googled average life on Earth to be 72.6-> round to 73
   lifeExpected() {
+    let averageLife = 73;
+    let expectedLife = Math.round(averageLife - this.currentAge);
+    if (expectedLife <0) {
+      return expectedLife;
+    } else {
+      return ("you have not reached your expected age of death!")
+    }
   }
 }
