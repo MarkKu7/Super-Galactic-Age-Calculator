@@ -14,23 +14,19 @@ export default class NewAge {
   }
 
   mercuryDays() {
-    let days = this.currentAge * 365;
-    let mercuryAge = Math.round(days / 88)
+    let mercuryAge = Math.round(this.currentAge/ .24)
       return mercuryAge;
   }
   venusDays() {
-    let days = this.currentAge * 365;
-    let venusAge = Math.round(days/226)
+    let venusAge = Math.round(this.currentAge/ .62)
     return venusAge;
   }
   marsDays() {
-    let days = this.currentAge * 365;
-    let marsAge = Math.round(days/686)
+    let marsAge = Math.round(this.currentAge/ 1.88)
     return marsAge;
   }
   jupiterDays() {
-    let days = this.currentAge * 365;
-    let jupiterAge = Math.round(days/4329)
+    let jupiterAge = Math.round(this.currentAge/ 11.86)
     return jupiterAge;
   }
   //googled average life on Earth to be 72.6-> round to 73
