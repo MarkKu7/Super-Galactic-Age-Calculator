@@ -9,6 +9,7 @@ export default class NewAge {
   }
 
   totalDays() {
-
+    let days = this.currentAge * 365;
+    return days
   }
 }
