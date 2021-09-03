@@ -18,4 +18,13 @@ export default class NewAge {
     let mercuryAge = Math.round(days / 88)
       return mercuryAge;
   }
+  venusDays() {
+   
+  }
+  marsDays() {
+    
+  }
+  jupiterDays() {
+    
+  }
 }
