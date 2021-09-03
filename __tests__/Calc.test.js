@@ -15,4 +15,8 @@ test('should create a GalacticAge object', () => {
     expect(newAge.marsAge).toEqual(5);
     expect(newAge.jupiterAge).toEqual(1);
   });
+
+  test('should calculate number of days old', () => {
+    expect(newAge.totalDays()).toEqual(3650);
+  });
 });

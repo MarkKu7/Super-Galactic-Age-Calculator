@@ -7,4 +7,8 @@ export default class NewAge {
     this.marsAge = marsAge;
     this.jupiterAge = jupiterAge;
   }
+
+  totalDays() {
+
+  }
 }
