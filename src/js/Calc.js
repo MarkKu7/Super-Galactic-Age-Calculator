@@ -39,4 +39,7 @@ export default class NewAge {
       return ("you have not reached your expected age of death!")
     }
   }
+  planetAge(){
+    
+  }
 }
