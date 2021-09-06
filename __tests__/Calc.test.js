@@ -40,6 +40,6 @@ test('should determine if user has reached his/her life expectancy', () => {
   });
 
 test('should return your age based on planet in a string', () => {
-  expect(newAge.planetAge()).toEqual("You are 42 years old on Mercury. You are 5 years old on Venus.You are 16 years old on Mars. You are 1 years old on Jupiter.")
+  expect(newAge.planetAge()).toEqual("You are 42 years old on Mercury.You are 16 years old on Venus.You are 5 years old on Mars.You are 1 years old on Jupiter.")
 });
 });

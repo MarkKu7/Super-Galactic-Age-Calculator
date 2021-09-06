@@ -40,7 +40,7 @@ export default class NewAge {
     }
   }
   planetAge() {
-    let planetAges = ('You are ${this.mercuryAge} years old on Mercury.You are ${this.venusAge} years old on Venus.You are ${this.marsAge} years old on Mars.You are ${this.jupiterAge} years old.');
-    return planetAges;
+    let planetAges = (`You are ${this.mercuryAge} years old on Mercury.You are ${this.venusAge} years old on Venus.You are ${this.marsAge} years old on Mars.You are ${this.jupiterAge} years old on Jupiter.`);
+      return planetAges;
   }
 }
