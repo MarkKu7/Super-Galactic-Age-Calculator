@@ -34,7 +34,7 @@ export default class NewAge {
     let averageLife = 73;
     let expectedLife = Math.round(averageLife - this.currentAge);
     if (expectedLife <0) {
-      return expectedLife;
+      return Math.abs(expectedLife);
     } else {
       return ("you have not reached your expected age of death!")
     }
