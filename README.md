@@ -21,7 +21,7 @@ Directs user to an website where s/he can find out their age on other planets.
 
 * Clone repository from Github to users dekstop
 * Open Directory in text editor of choice
-* Or visit file on github at https://github.com/MarkKu7/Pizza-Project.git
+* Or visit file on github at https://github.com/MarkKu7/Super-Galactic-Age-Calculator.git
 * Once directory is open, open terminal and type in npm install
 * type npm run test or jest --coverage to look at tests made in Calc.test.js
 
